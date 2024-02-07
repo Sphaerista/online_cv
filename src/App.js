@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import HorizontalScroll from "./components/HorizontalScroll";
+import ShrinkHeader from "./components/ShrinkHeader";
+import StackingCards from "./components/StackingCards";
+import Terminal from "./components/Terminal";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ShrinkHeader />
+      <Terminal />
+      <HorizontalScroll />
+      <StackingCards />
+    </>
   );
-}
+};
 
 export default App;
