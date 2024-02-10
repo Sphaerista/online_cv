@@ -8,12 +8,13 @@ const JobCard = (props) => {
         <div className="img-card">
           <img src={img} class="hoverZoomLink" />
         </div>
-        <div className="date">{date}</div>
-        <div className="job">{job}</div>
-        <div className="company">{company}</div>
+        <div className="job-info">
+          <div className="job">{job}</div>
+          <div className="date">{date}</div>
+          <div className="company">{company}</div>
+        </div>
       </div>
-      <div class="profile-bio">{/* <p>{description}</p> */}</div>
-      <ul class="profile-social-links">
+      <ul class="profile-desc">
         <li>
           <div>{description1}</div>
         </li>

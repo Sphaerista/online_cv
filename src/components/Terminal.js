@@ -19,7 +19,7 @@ const Terminal = () => {
         </div>
         <div className={styles.fakeScreen}>
           <p className={styles.typeText} suppressHydrationWarning>
-            Last login: {currTime3} on ttys000
+            Last login: {currTime3}
           </p>
           <p id="greeting" className={styles.typeText}>
             $ Good{" "}

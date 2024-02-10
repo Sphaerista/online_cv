@@ -20,9 +20,17 @@ const StackingCards = () => {
               <div class="card__content">
                 <div>
                   <h3>Todolist app with AI chat</h3>
-                  <div>ReactJS</div>
-                  <div>Typescript</div>
-                  <div>OpenAI API</div>
+                  <div className="app-stack">
+                    <div className="technology">ReactJS</div>
+                    <div className="technology">Typescript</div>
+                    <div className="technology">OpenAI API</div>
+                    <div className="technology">PrimeReact UI</div>
+                  </div>
+                  <div className="app-text">
+                    Todolist that has an ability to add nested subtasks and
+                    tags. There is also context hepler AI assisting correctly
+                    plan tasks.
+                  </div>
                   <p>
                     <a href="#top" class="btn btn--accent">
                       Read more
@@ -38,9 +46,16 @@ const StackingCards = () => {
               <div class="card__content">
                 <div>
                   <h3>Dashboard for user management</h3>
-                  <div>ReactJS</div>
-                  <div>Redux Toolkit</div>
-                  <div>Bootstrap</div>
+                  <div className="app-stack">
+                    <div className="technology">ReactJS</div>
+                    <div className="technology">Redux Toolkit</div>
+                    <div className="technology">Bootstrap</div>
+                  </div>
+                  <div className="app-text">
+                    Administration panel with possibility to add, edit and
+                    delete users. Users are stored locally and can be sorted by
+                    their username.
+                  </div>
                   <p>
                     <a href="#top" class="btn btn--accent">
                       Read more
@@ -56,11 +71,18 @@ const StackingCards = () => {
               <div class="card__content">
                 <div>
                   <h3>Books searching app</h3>
-                  <div>ReactJS</div>
-                  <div>Redux Toolkit</div>
-                  <div>Typescript</div>
-                  <div>Google Books API</div>
-                  <div>Docker</div>
+                  <div className="app-stack">
+                    <div className="technology">ReactJS</div>
+                    <div className="technology">Redux Toolkit</div>
+                    <div className="technology">Typescript</div>
+                    {/* <div className="technology">Google Books API</div> */}
+                    <div className="technology">Docker</div>
+                  </div>
+                  <div className="app-text">
+                    Ability to search books and check book's description. Can be
+                    built in Docker. The app is responsive from 320px up to
+                    1920px.
+                  </div>
                   <p>
                     <a href="#top" class="btn btn--accent">
                       Read more

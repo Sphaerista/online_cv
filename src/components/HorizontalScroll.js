@@ -4,7 +4,7 @@ import JobCard from "./JobCard";
 import RTlogo from "../shared/Logo_RT_2022.jpg";
 import Netmedialogo from "../shared/netmedia.jpeg";
 import Blindsidelogo from "../shared/blindside.jpeg";
-import Conduentlogo from "../shared/Conduent_Registermark_Horizontal_RGB.png";
+import Conduentlogo from "../shared/condlogo.jpg";
 
 const HorizontalScroll = () => {
   return (
@@ -35,7 +35,7 @@ const HorizontalScroll = () => {
                       "Creating media content and editing video clips."
                     }
                     description3={
-                      "Writing scripts and batches for After Effects & After Effects."
+                      "Writing scripts and batches for After Effects."
                     }
                   />
                 </div>
@@ -47,7 +47,7 @@ const HorizontalScroll = () => {
                       job={"Junior Frontend Developer"}
                       company={"Netmedianer GmbH "}
                       description1={
-                        "Building webparts for Microsoft Sharepoint using Typescript."
+                        "Building webparts for Microsoft Sharepoint."
                       }
                       description2={
                         "Extending applications for Microsoft Teams in ReactJS."
@@ -62,7 +62,7 @@ const HorizontalScroll = () => {
                       img={Blindsidelogo}
                       date={"04/2022 – 06/2022"}
                       job={"Frontend Developer Internship"}
-                      company={"Blindside"}
+                      company={"Blindside GmbH"}
                       description1={
                         "Creating the UI of a website in HTML5, CSS and ReactJS."
                       }
@@ -84,7 +84,7 @@ const HorizontalScroll = () => {
                       "Optimizing the training processes of the new employees."
                     }
                     description3={
-                      "Writing utility software to automate employees' proccesses."
+                      "Writing utility software to automate proccesses."
                     }
                   />
                 </div>
