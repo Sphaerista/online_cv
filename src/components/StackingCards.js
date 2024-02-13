@@ -38,7 +38,7 @@ const StackingCards = () => {
                   </p>
                 </div>
                 <figure>
-                  <img src={proj1} alt="Image description" />
+                  <img src={proj1} alt="project 1 image" />
                 </figure>
               </div>
             </li>
@@ -63,7 +63,7 @@ const StackingCards = () => {
                   </p>
                 </div>
                 <figure>
-                  <img src={proj2} alt="Image description" />
+                  <img src={proj2} alt="project 2 image" />
                 </figure>
               </div>
             </li>
@@ -90,7 +90,7 @@ const StackingCards = () => {
                   </p>
                 </div>
                 <figure>
-                  <img src={proj3} alt="Image description" />
+                  <img src={proj3} alt="project 3 image" />
                 </figure>
               </div>
             </li>
@@ -104,19 +104,19 @@ const StackingCards = () => {
         <div className="contacts">
           <div className="contact-section">
             <a href="https://github.com/Sphaerista">
-              <img src={github} />
+              <img src={github} alt="github-logo" />
             </a>
             {/* <p>github</p> */}
           </div>
           <div className="contact-section">
             <a href="https://hh.ru">
-              <img src={hhlogo} />
+              <img src={hhlogo} alt="hh-logo" />
             </a>
             {/* <p>hh</p>  */}
           </div>
           <div className="contact-section">
             <a href="mailto:cosaleks@gmail.com">
-              <img src={whitemail} />
+              <img src={whitemail} alt="mail-logo" />
             </a>
           </div>
         </div>
