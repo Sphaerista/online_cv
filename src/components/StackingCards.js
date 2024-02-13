@@ -1,4 +1,4 @@
-import "./StackingCards.scss";
+import "./StackingCards.css";
 import proj1 from "../shared/todolist-app.jpg";
 import proj2 from "../shared/dashboard-app-l.jpg";
 import proj3 from "../shared/books-app.jpg";

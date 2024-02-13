@@ -1,4 +1,4 @@
-import "./JobCard.scss";
+import "./JobCard.css";
 const JobCard = (props) => {
   const { img, date, job, company, description1, description2, description3 } =
     props;

@@ -1,5 +1,5 @@
 import Airport from "./Airport";
-import "./ShrinkHeader.scss";
+import "./ShrinkHeader.css";
 const ShrinkHeader = () => {
   return (
     <>
