@@ -38,7 +38,7 @@ const StackingCards = () => {
                   </p>
                 </div>
                 <figure>
-                  <img src={proj1} alt="project 1 image" />
+                  <img src={proj1} alt="project 1" />
                 </figure>
               </div>
             </li>
@@ -63,7 +63,7 @@ const StackingCards = () => {
                   </p>
                 </div>
                 <figure>
-                  <img src={proj2} alt="project 2 image" />
+                  <img src={proj2} alt="project 2" />
                 </figure>
               </div>
             </li>
@@ -90,7 +90,7 @@ const StackingCards = () => {
                   </p>
                 </div>
                 <figure>
-                  <img src={proj3} alt="project 3 image" />
+                  <img src={proj3} alt="project 3" />
                 </figure>
               </div>
             </li>
