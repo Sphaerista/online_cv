@@ -1,0 +1,374 @@
+:root {
+  --card-height: 40vw;
+  --card-margin: 4vw;
+  --card-top-offset: 1em;
+  --outline-width: 0px;
+}
+
+@supports (animation-timeline: view()) {
+  .card {
+    --index0: calc(var(--index) - 1);
+    --reverse-index: calc(var(--numcards) - var(--index0));
+    --reverse-index0: calc(var(--reverse-index) - 1);
+  }
+
+  @keyframes scale {
+    to {
+      transform: scale(calc(1.1 - calc(0.1 * var(--reverse-index))));
+    }
+  }
+
+  #cards {
+    --numcards: 3;
+    view-timeline-name: --cards-element-scrolls-in-body;
+  }
+
+  .card__content {
+    --start-range: calc(var(--index0) / var(--numcards) * 100%);
+    --end-range: calc((var(--index)) / var(--numcards) * 100%);
+
+    animation: linear scale forwards;
+    animation-timeline: --cards-element-scrolls-in-body;
+    animation-range: exit-crossing var(--start-range) exit-crossing
+      var(--end-range);
+  }
+}
+
+#cards {
+  padding-bottom: calc(var(--numcards) * var(--card-top-offset));
+  margin-bottom: var(--card-margin);
+}
+
+#card_1 {
+  --index: 1;
+}
+
+#card_2 {
+  --index: 2;
+}
+
+#card_3 {
+  --index: 3;
+}
+
+.card {
+  position: sticky;
+  top: 80px;
+  padding-top: calc(var(--index) * var(--card-top-offset));
+}
+
+.card__content {
+  transform-origin: 50% 0%;
+  will-change: transform;
+}
+
+.body {
+  background: #2f3c7e;
+  color: rgb(255, 255, 255);
+  font-size: calc(1em + 0.5vw);
+}
+
+.main {
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #d3e3fc;
+}
+
+.header {
+  height: 96vh;
+  display: grid;
+  place-items: center;
+}
+
+#cards {
+  list-style: none;
+  outline: calc(var(--outline-width) * 10) solid hotpink;
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(var(--numcards), var(--card-height));
+  gap: var(--card-margin);
+}
+
+.card {
+  outline: var(--outline-width) solid lime;
+}
+
+.card__content {
+  box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.1), 0 1em 2em rgba(0, 0, 0, 0.1);
+  background: #fbeaeb;
+  color: rgb(10, 5, 7);
+  border-radius: 1em;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-areas: "text img";
+  grid-template-columns: 1.5fr 0.8fr;
+  grid-template-rows: auto;
+
+  align-items: stretch;
+  outline: var(--outline-width) solid blue;
+}
+
+.card__content {
+  > div {
+    grid-area: text;
+    width: 80%;
+    place-self: center;
+    text-align: left;
+    display: grid;
+    gap: 1em;
+    place-items: start;
+  }
+}
+
+.card__content {
+  > figure {
+    grid-area: img;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    margin: 0;
+  }
+}
+
+.card__content {
+  > figure {
+    > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+main {
+  background-color: #d3e3fc;
+}
+main {
+  h1 {
+    font-family: "Inter";
+  }
+}
+
+main {
+  h3 {
+    font-family: "Inter";
+    margin-bottom: 20px;
+  }
+}
+
+main {
+  p {
+    font-family: "Inter";
+  }
+}
+
+main {
+  .btn {
+    background-color: rgb(90, 45, 67);
+    color: rgb(255 255 255);
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    transition: all 200ms ease-out;
+  }
+}
+
+@media (hover: hover) {
+  main {
+    .btn:hover {
+      transition: all 200ms ease-out;
+      background-color: rgb(134, 67, 100);
+    }
+  }
+}
+
+.app-stack {
+  display: flex;
+  flex-direction: row;
+}
+
+.technology {
+  margin-right: 12px;
+  padding: 6px 8px 8px;
+  border: #2f3c7e;
+  border-radius: 10px;
+  background-color: #2f3c7e;
+  color: rgb(255 255 255);
+}
+
+aside {
+  width: 50vw;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-title {
+  height: 55vh;
+  display: grid;
+  place-items: center;
+}
+.contact-title {
+  > h1 {
+    margin-top: 0;
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 35vh;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-section {
+  > a {
+    padding-bottom: 4rem;
+  }
+}
+.contact-section {
+  > a {
+    > img {
+      height: 10vh;
+      width: auto;
+      max-width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  main {
+    h3 {
+      margin-bottom: 5px;
+    }
+  }
+
+  main {
+    p {
+      margin-top: 6px;
+    }
+  }
+
+  .technology {
+    margin-right: 8px;
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  main h3 {
+    font-size: large;
+  }
+  .card__content {
+    > div {
+      width: 90%;
+    }
+  }
+
+  .technology {
+    margin-right: 6px;
+    font-size: small;
+  }
+  .app-text {
+    font-size: large;
+  }
+
+  main {
+    .btn {
+      font-size: large;
+    }
+  }
+
+  .contact-title {
+    height: 55vh;
+  }
+  .contact-section {
+    > a {
+      > img {
+        height: 8vh;
+      }
+    }
+  }
+  .contact-title {
+    > h1 {
+      margin: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .card__content {
+    > div {
+      grid-area: text;
+      width: 80%;
+      place-self: center;
+      text-align: left;
+      display: grid;
+      gap: 1em;
+      place-items: start;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card__content {
+    > div {
+      grid-area: text;
+      width: 90%;
+      place-self: center;
+      text-align: left;
+      display: grid;
+      gap: 1em;
+      place-items: start;
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .main {
+    width: 90vw;
+  }
+  #cards {
+    margin: auto;
+    display: inline;
+  }
+  .card__content {
+    grid-template-areas: "img" "text";
+    grid-template-columns: auto;
+  }
+  main {
+    padding-bottom: 1rem;
+  }
+  main {
+    h3 {
+      margin-bottom: 2px;
+    }
+  }
+  .app-text {
+    font-size: smaller;
+  }
+
+  aside {
+    width: 70vw;
+    height: 50vh;
+  }
+  .contact-title {
+    height: 30vh;
+  }
+  .contacts {
+    height: auto;
+  }
+  .contact-section {
+    > a {
+      padding-bottom: initial;
+    }
+  }
+}

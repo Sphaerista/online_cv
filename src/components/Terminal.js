@@ -8,7 +8,6 @@ const Terminal = () => {
     hour12: false,
   });
   const currHour = new Date(currTime1).getHours();
-  console.log(currHour);
   return (
     <div className={styles.headerTerminal}>
       <div className={`${styles.terminal} text-sm md:text-2xl`}>
@@ -32,7 +31,7 @@ const Terminal = () => {
               : `evening`}
             .
           </p>
-          <p className={styles.typeText}>$ I am Archimidis, a Web Developer.</p>
+          <p className={styles.typeText}>$ I am Konstantin, a Web Developer.</p>
           {/* <p className={styles.typeText}>$ &amp; Automotive Engineer.</p> */}
           <p className={styles.typeText}>
             $ Find out more about me below...&#9608;

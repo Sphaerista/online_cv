@@ -1,10 +1,10 @@
-import "./StackingCards.css";
-import proj1 from "../shared/gogeek.png";
-import proj2 from "../shared/spoh.png";
-import proj3 from "../shared/compare-ev.jpeg";
-import github from "../shared/githublogo.png";
-import whitemail from "../shared/white-envelope.png";
-import hhlogo from "../shared/hh.png";
+import "./StackingCards.scss";
+import proj1 from "../shared/todolist-app.jpg";
+import proj2 from "../shared/dashboard-app-l.jpg";
+import proj3 from "../shared/books-app.jpg";
+import github from "../shared/githublogo-blue.png";
+import whitemail from "../shared/white-envelope-blue.png";
+import hhlogo from "../shared/hh-blue.png";
 const StackingCards = () => {
   return (
     <div class="body">
@@ -103,7 +103,7 @@ const StackingCards = () => {
         </div>
         <div className="contacts">
           <div className="contact-section">
-            <a href="https://github.com">
+            <a href="https://github.com/Sphaerista">
               <img src={github} />
             </a>
             {/* <p>github</p> */}
@@ -115,7 +115,7 @@ const StackingCards = () => {
             {/* <p>hh</p>  */}
           </div>
           <div className="contact-section">
-            <a href="mailto:ex.ex@example.com?body=My custom mail body">
+            <a href="mailto:cosaleks@gmail.com">
               <img src={whitemail} />
             </a>
           </div>

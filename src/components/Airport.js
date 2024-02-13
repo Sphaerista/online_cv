@@ -3,7 +3,29 @@ const Airport = () => {
   return (
     <header className="App-header">
       <div className="departure-board">
+        <span className="letter letter-K"></span>
+        <span className="letter letter-O"></span>
+        <span className="letter letter-N"></span>
+        <span className="letter letter-S"></span>
+        <span className="letter letter-T"></span>
+        <span className="letter letter-A"></span>
+        <span className="letter letter-N"></span>
+        <span className="letter letter-T"></span>
+        <span className="letter letter-I"></span>
+        <span className="letter letter-N"></span>
+        <span className="letter letter-blank"></span>
+        <span className="letter letter-A"></span>
+        <span className="letter letter-L"></span>
         <span className="letter letter-E"></span>
+        <span className="letter letter-X"></span>
+        <span className="letter letter-A"></span>
+        <span className="letter letter-N"></span>
+        <span className="letter letter-D"></span>
+        <span className="letter letter-R"></span>
+        <span className="letter letter-I"></span>
+        <span className="letter letter-D"></span>
+        <span className="letter letter-I"></span>
+        {/* <span className="letter letter-E"></span>
         <span className="letter letter-U"></span>
         <span className="letter letter-S"></span>
         <span className="letter letter-T"></span>
@@ -23,7 +45,7 @@ const Airport = () => {
         <span className="letter letter-I"></span>
         <span className="letter letter-D"></span>
         <span className="letter letter-I"></span>
-        <span className="letter letter-S"></span>
+        <span className="letter letter-S"></span> */}
       </div>
     </header>
   );

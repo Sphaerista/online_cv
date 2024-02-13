@@ -1,0 +1,77 @@
+.profile-card {
+  margin: 4rem 2rem 0;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* border: 1px solid red; */
+  background-color: whitesmoke;
+  color: #151515;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+.img-card {
+  aspect-ratio: 16 /5;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.img-card {
+  img {
+    height: 100%;
+    width: 100%;
+    transition: all 500ms ease-out;
+    transform: scale(1);
+  }
+}
+@media (hover: hover) {
+  .img-card img:hover {
+    transition: all 300ms ease-in;
+    transform: scale(1.2);
+  }
+}
+
+.profile-desc,
+.date,
+.job,
+.company {
+  font-family: "Inter";
+  font-size: large;
+}
+.profile-desc {
+  padding-right: 5px;
+}
+.date,
+.job,
+.company {
+  padding-top: 6px;
+}
+
+.job {
+  font-size: larger;
+}
+
+.job-info {
+  margin-left: 1.5rem;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1025px) {
+  .profile-card {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .job {
+    font-size: large;
+  }
+  .date,
+  .company {
+    font-size: medium;
+  }
+  .profile-card {
+    height: 38vh;
+  }
+  .profile-desc {
+    font-size: small;
+  }
+}

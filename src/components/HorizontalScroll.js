@@ -1,5 +1,4 @@
-import "./HorizontalScroll.css";
-import logo from "../shared/Untitled-3.jpg";
+import "./HorizontalScroll.scss";
 import JobCard from "./JobCard";
 import RTlogo from "../shared/Logo_RT_2022.jpg";
 import Netmedialogo from "../shared/netmedia.jpeg";
