@@ -3,7 +3,6 @@ import proj1 from "../shared/todolist-app.jpg";
 import proj2 from "../shared/dashboard-app-l.jpg";
 import proj3 from "../shared/books-app.jpg";
 import github from "../shared/githublogo-blue.png";
-import githubsvg from "../shared/icons-github-svg.svg";
 import whitemail from "../shared/white-envelope-blue.png";
 import hhlogo from "../shared/hh-blue.png";
 import primereact from "../shared/primereact-logo-black.webp";
@@ -47,7 +46,7 @@ const StackingCards = () => {
                     </div>
                     <div className="app-stack-icons">
                       <a href="https://primereact.org/">
-                        <img src={primereact} />
+                        <img src={primereact} alt="prime-react" />
                       </a>
                     </div>
                     {/* <div className="technology">ReactJS</div> */}
