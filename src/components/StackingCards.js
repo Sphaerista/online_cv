@@ -17,7 +17,7 @@ const StackingCards = () => {
         <div class="main">
           <ul id="cards">
             <li class="card" id="card_1">
-              <div class="card__content">
+              <div class="card__content card__content-anim">
                 <div>
                   <h3>Todolist app with AI chat</h3>
                   <div className="app-stack">
@@ -43,7 +43,7 @@ const StackingCards = () => {
               </div>
             </li>
             <li class="card" id="card_2">
-              <div class="card__content">
+              <div class="card__content card__content-anim">
                 <div>
                   <h3>Dashboard for user management</h3>
                   <div className="app-stack">
@@ -68,7 +68,7 @@ const StackingCards = () => {
               </div>
             </li>
             <li class="card" id="card_3">
-              <div class="card__content">
+              <div class="card__content card__content-anim">
                 <div>
                   <h3>Books searching app</h3>
                   <div className="app-stack">
