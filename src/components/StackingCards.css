@@ -161,13 +161,13 @@ main {
   background-color: #d3e3fc;
 }
 main h1 {
-  font-family: "Inter";
+  /* font-family: "Inter"; */
   /* font-weight: 300; */
   /* font-size: 3.5em; */
 }
 
 main h3 {
-  font-family: "Inter";
+  /* font-family: "Inter"; */
   margin-bottom: 20px;
   /* font-weight: 300; */
   /* font-size: 2.5em; */
@@ -175,7 +175,7 @@ main h3 {
 
 main p {
   /* font-family: sans-serif; */
-  font-family: "Inter";
+  /* font-family: "Inter"; */
   /* font-weight: 300; */
   /* line-height: 1.42; */
 }

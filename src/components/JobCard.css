@@ -37,7 +37,7 @@
 .date,
 .job,
 .company {
-  font-family: "Inter";
+  /* font-family: "Inter"; */
   /* font-weight: 600; */
   font-size: large;
 }
