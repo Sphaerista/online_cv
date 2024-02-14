@@ -150,6 +150,8 @@
     animation: linear move forwards;
 
     /* Link animation to view-timeline */
+  }
+  .pin-wrap {
     animation-timeline: --section-pin-tl;
     animation-range: contain 0% contain 100%;
   }
