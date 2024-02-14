@@ -18,7 +18,7 @@ const HorizontalScroll = () => {
 
           <section className="sectionPin">
             <div className="pin-wrap-sticky">
-              <div className="pin-wrap">
+              <div className="pin-wrap pin-wrap-anim">
                 {/* <h2>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.

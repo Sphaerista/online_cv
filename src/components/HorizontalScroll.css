@@ -151,7 +151,7 @@
 
     /* Link animation to view-timeline */
   }
-  .pin-wrap {
+  .pin-wrap-anim {
     animation-timeline: --section-pin-tl;
     animation-range: contain 0% contain 100%;
   }
