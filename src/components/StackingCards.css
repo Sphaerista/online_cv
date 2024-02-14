@@ -181,19 +181,65 @@ main p {
 }
 
 main .btn {
-  background-color: rgb(90, 45, 67);
+  /* background-color: rgb(90, 45, 67); */
   color: rgb(255 255 255);
   text-decoration: none;
-  display: inline-block;
-  padding: 0.5em;
+  /* display: inline-block; */
+  padding: 0.1em;
   border-radius: 0.25em;
   transition: all 200ms ease-out;
+  width: 2em;
+  height: 2em;
+  display: flex;
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+.app-btns {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+.app-stack-icons {
+  width: 2em;
+  height: 2em;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.app-stack-icons > * {
+  color: black;
+}
+
+.app-stack-icons > *:hover {
+  transition: all 200ms ease-in;
+}
+
+.app-stack-icons > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-img {
+  width: 100%;
+  height: 100%;
+}
+/* .btn {
+  border: 1px solid red;
+} */
+.btn > svg {
+  transition: all 200ms ease-in;
+  color: #2f3c7e;
+}
+
+.btn > svg:hover {
+  transition: all 200ms ease-out;
+  color: #5c71db;
 }
 
 @media (hover: hover) {
   main .btn:hover {
     transition: all 200ms ease-out;
-    background-color: rgb(134, 67, 100);
+    /* background-color: rgb(134, 67, 100); */
+    /* background-color: #d3e3fc; */
   }
 }
 
