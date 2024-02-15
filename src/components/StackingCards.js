@@ -60,7 +60,7 @@ const StackingCards = () => {
                   </div>
                   <div className="app-btns">
                     <a
-                      href="https://roaring-paletas-13eae2.netlify.app/"
+                      href="https://online-cv-web-dev.netlify.app/"
                       class="btn btn-website"
                     >
                       <svg
