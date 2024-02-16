@@ -303,7 +303,7 @@ const StackingCards = () => {
             {/* <p>github</p> */}
           </div>
           <div className="contact-section">
-            <a href="https://hh.ru">
+            <a href="https://hh.ru/applicant/resumes/view?resume=d7325e19ff074c10b80039ed1f4553424e4f45">
               <img src={hhlogo} alt="hh-logo" />
             </a>
             {/* <p>hh</p>  */}
