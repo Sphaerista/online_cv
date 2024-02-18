@@ -10,6 +10,12 @@ const App = () => {
       <Terminal />
       <HorizontalScroll />
       <StackingCards />
+      <div class="warning">
+        <p>
+          ⚠️ Your browser does not support Scroll-driven Animations. Please use
+          Chrome 115 or newer.
+        </p>
+      </div>
     </>
   );
 };

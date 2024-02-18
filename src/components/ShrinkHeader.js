@@ -15,12 +15,6 @@ const ShrinkHeader = () => {
       </header>
       {/* <main class="limited">
         <div class="col">
-          <div class="warning">
-            <p>
-              ⚠️ Your browser does not support Scroll-driven Animations. Please
-              use Chrome 115 or newer.
-            </p>
-          </div>
           <div class="box" style="height: 20vh"></div>
           <div class="box" style="height: 5vh"></div>
           <div class="box"></div>
